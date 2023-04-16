@@ -1,4 +1,5 @@
 import os
+import time
 def Function():
   os.system('cls&title by.theena')
   print('''
@@ -9,10 +10,12 @@ def Function():
   
   if b == '1':
     print("ข้อความ")
+    time.sleep(2)
     Function()
     
   if b == '2':
     print("ข้อความ")
+    time.sleep(2)
     Function()
     
 if (__name__ == '__main__'):
